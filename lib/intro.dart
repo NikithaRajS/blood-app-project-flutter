@@ -61,7 +61,6 @@ class IntroState extends State<Intro> {
   SharedPreferences prefs;
   void start(BuildContext){
     asyncFunc();
-    //prefs.setBool("FUCK3", true);
   }
   asyncFunc() async { // Async func to handle Futures easier; or use Future.then
     prefs = await SharedPreferences.getInstance();
