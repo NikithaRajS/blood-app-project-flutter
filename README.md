@@ -1,6 +1,6 @@
 # revive
 
-A new Flutter application.
+The repository for blood donors app for BDK Kerala project
 
 ## Getting Started
 
