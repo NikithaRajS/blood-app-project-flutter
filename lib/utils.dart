@@ -37,7 +37,7 @@ BoxDecoration bg(){
       gradient: LinearGradient(
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
-          colors: [Colors.pink, Colors.amber]),
+          colors: [Colors.white, Colors.grey[300]]),
       image: DecorationImage(
         image: AssetImage(bg_image),fit: BoxFit.cover,
         colorFilter: new ColorFilter.mode(Colors.black.withOpacity(0.4), BlendMode.dstATop),
