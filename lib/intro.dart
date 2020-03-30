@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
 import 'home.dart';
-
-//INtro slider
 import 'package:intro_slider/intro_slider.dart';
 import 'package:intro_slider/slide_object.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -11,8 +9,6 @@ class Intro extends StatefulWidget {
   @override
   IntroState createState() => new IntroState();
 }
-//Handle back button
-//#DD5877
 
 double imgsize = 150.0;
 class IntroState extends State<Intro> {
@@ -27,7 +23,7 @@ class IntroState extends State<Intro> {
       new Slide(
         title: "WElcome to revive",
         description: "tagline.",
-        //pathImage: "images/intro3.png",
+        //pathImage: "images/intro3.png",// To shibiliya: Place logo path here then remove below line
         centerWidget: Icon(Icons.chat,size: 140,color: Colors.white,),
         widthImage:imgsize,
         heightImage:imgsize,
@@ -38,7 +34,6 @@ class IntroState extends State<Intro> {
       new Slide(
         title: "Slide 2",
         description: "Description",
-        //pathImage: "images/intro3.png",
         centerWidget: Icon(Icons.trending_up,size: 140,color: Colors.white,),
         widthImage:imgsize,
         heightImage:imgsize,
